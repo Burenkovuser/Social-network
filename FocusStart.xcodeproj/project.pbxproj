@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2C35121F468AA2005A66AB /* CellMessageText.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2C35111F468AA2005A66AB /* CellMessageText.m */; };
+		FB2C35151F468B8E005A66AB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2C35141F468B8E005A66AB /* TableViewController.m */; };
+		FB2C35181F468D5D005A66AB /* CellMessageSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2C35171F468D5D005A66AB /* CellMessageSocial.m */; };
+		FB2C351B1F469105005A66AB /* CellMessageImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2C351A1F469105005A66AB /* CellMessageImage.m */; };
 		FBBC71CD1F41515700F4BB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC71CC1F41515700F4BB85 /* main.m */; };
 		FBBC71D01F41515700F4BB85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC71CF1F41515700F4BB85 /* AppDelegate.m */; };
-		FBBC71D31F41515700F4BB85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC71D21F41515700F4BB85 /* ViewController.m */; };
 		FBBC71D61F41515700F4BB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBC71D41F41515700F4BB85 /* Main.storyboard */; };
 		FBBC71D81F41515700F4BB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBC71D71F41515700F4BB85 /* Assets.xcassets */; };
 		FBBC71DB1F41515700F4BB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBC71D91F41515700F4BB85 /* LaunchScreen.storyboard */; };
@@ -21,12 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB2C35101F468AA2005A66AB /* CellMessageText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMessageText.h; sourceTree = "<group>"; };
+		FB2C35111F468AA2005A66AB /* CellMessageText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMessageText.m; sourceTree = "<group>"; };
+		FB2C35131F468B8E005A66AB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FB2C35141F468B8E005A66AB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FB2C35161F468D5D005A66AB /* CellMessageSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMessageSocial.h; sourceTree = "<group>"; };
+		FB2C35171F468D5D005A66AB /* CellMessageSocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMessageSocial.m; sourceTree = "<group>"; };
+		FB2C35191F469105005A66AB /* CellMessageImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMessageImage.h; sourceTree = "<group>"; };
+		FB2C351A1F469105005A66AB /* CellMessageImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMessageImage.m; sourceTree = "<group>"; };
 		FBBC71C81F41515700F4BB85 /* FocusStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBC71CC1F41515700F4BB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBBC71CE1F41515700F4BB85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBBC71CF1F41515700F4BB85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FBBC71D11F41515700F4BB85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FBBC71D21F41515700F4BB85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FBBC71D51F41515700F4BB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBBC71D71F41515700F4BB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBBC71DA1F41515700F4BB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +62,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB2C350D1F4687B0005A66AB /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		FB2C350F1F468899005A66AB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C35101F468AA2005A66AB /* CellMessageText.h */,
+				FB2C35111F468AA2005A66AB /* CellMessageText.m */,
+				FB2C35161F468D5D005A66AB /* CellMessageSocial.h */,
+				FB2C35171F468D5D005A66AB /* CellMessageSocial.m */,
+				FB2C35191F469105005A66AB /* CellMessageImage.h */,
+				FB2C351A1F469105005A66AB /* CellMessageImage.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		FBBC71BF1F41515700F4BB85 = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +101,14 @@
 		FBBC71CA1F41515700F4BB85 /* FocusStart */ = {
 			isa = PBXGroup;
 			children = (
+				FB2C350F1F468899005A66AB /* Cells */,
+				FB2C350D1F4687B0005A66AB /* API */,
 				FBBC71E41F4185F600F4BB85 /* Model */,
 				FBBC71CE1F41515700F4BB85 /* AppDelegate.h */,
 				FBBC71CF1F41515700F4BB85 /* AppDelegate.m */,
-				FBBC71D11F41515700F4BB85 /* ViewController.h */,
-				FBBC71D21F41515700F4BB85 /* ViewController.m */,
 				FBBC71D41F41515700F4BB85 /* Main.storyboard */,
+				FB2C35131F468B8E005A66AB /* TableViewController.h */,
+				FB2C35141F468B8E005A66AB /* TableViewController.m */,
 				FBBC71D71F41515700F4BB85 /* Assets.xcassets */,
 				FBBC71D91F41515700F4BB85 /* LaunchScreen.storyboard */,
 				FBBC71DC1F41515700F4BB85 /* Info.plist */,
@@ -182,13 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBC71D31F41515700F4BB85 /* ViewController.m in Sources */,
 				FBBC71F01F41D69900F4BB85 /* SocialMessage.m in Sources */,
 				FBBC71EA1F41C8CE00F4BB85 /* TextMessage.m in Sources */,
+				FB2C35121F468AA2005A66AB /* CellMessageText.m in Sources */,
 				FBBC71E71F41861B00F4BB85 /* Message.m in Sources */,
 				FBBC71D01F41515700F4BB85 /* AppDelegate.m in Sources */,
 				FBBC71CD1F41515700F4BB85 /* main.m in Sources */,
 				FBBC71ED1F41D0BA00F4BB85 /* ImageMessage.m in Sources */,
+				FB2C35151F468B8E005A66AB /* TableViewController.m in Sources */,
+				FB2C35181F468D5D005A66AB /* CellMessageSocial.m in Sources */,
+				FB2C351B1F469105005A66AB /* CellMessageImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +379,7 @@
 				FBBC71E11F41515700F4BB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
