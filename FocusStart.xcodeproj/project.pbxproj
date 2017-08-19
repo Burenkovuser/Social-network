@@ -21,6 +21,9 @@
 		FBBC71EA1F41C8CE00F4BB85 /* TextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC71E91F41C8CE00F4BB85 /* TextMessage.m */; };
 		FBBC71ED1F41D0BA00F4BB85 /* ImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC71EC1F41D0BA00F4BB85 /* ImageMessage.m */; };
 		FBBC71F01F41D69900F4BB85 /* SocialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC71EF1F41D69900F4BB85 /* SocialMessage.m */; };
+		FBBFD2291F46E8CD00DDF7F0 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD2281F46E8CD00DDF7F0 /* LibraryAPI.m */; };
+		FBBFD22C1F46EB3E00DDF7F0 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD22B1F46EB3E00DDF7F0 /* HttpClient.m */; };
+		FBBFD22F1F46F21F00DDF7F0 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD22E1F46F21F00DDF7F0 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,12 @@
 		FBBC71EC1F41D0BA00F4BB85 /* ImageMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMessage.m; sourceTree = "<group>"; };
 		FBBC71EE1F41D69900F4BB85 /* SocialMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMessage.h; sourceTree = "<group>"; };
 		FBBC71EF1F41D69900F4BB85 /* SocialMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialMessage.m; sourceTree = "<group>"; };
+		FBBFD2271F46E8CD00DDF7F0 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		FBBFD2281F46E8CD00DDF7F0 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		FBBFD22A1F46EB3E00DDF7F0 /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		FBBFD22B1F46EB3E00DDF7F0 /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		FBBFD22D1F46F21F00DDF7F0 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		FBBFD22E1F46F21F00DDF7F0 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,12 @@
 		FB2C350D1F4687B0005A66AB /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FBBFD2271F46E8CD00DDF7F0 /* LibraryAPI.h */,
+				FBBFD2281F46E8CD00DDF7F0 /* LibraryAPI.m */,
+				FBBFD22A1F46EB3E00DDF7F0 /* HttpClient.h */,
+				FBBFD22B1F46EB3E00DDF7F0 /* HttpClient.m */,
+				FBBFD22D1F46F21F00DDF7F0 /* Manager.h */,
+				FBBFD22E1F46F21F00DDF7F0 /* Manager.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -214,10 +229,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBBC71F01F41D69900F4BB85 /* SocialMessage.m in Sources */,
+				FBBFD22F1F46F21F00DDF7F0 /* Manager.m in Sources */,
+				FBBFD2291F46E8CD00DDF7F0 /* LibraryAPI.m in Sources */,
 				FBBC71EA1F41C8CE00F4BB85 /* TextMessage.m in Sources */,
 				FB2C35121F468AA2005A66AB /* CellMessageText.m in Sources */,
 				FBBC71E71F41861B00F4BB85 /* Message.m in Sources */,
 				FBBC71D01F41515700F4BB85 /* AppDelegate.m in Sources */,
+				FBBFD22C1F46EB3E00DDF7F0 /* HttpClient.m in Sources */,
 				FBBC71CD1F41515700F4BB85 /* main.m in Sources */,
 				FBBC71ED1F41D0BA00F4BB85 /* ImageMessage.m in Sources */,
 				FB2C35151F468B8E005A66AB /* TableViewController.m in Sources */,
