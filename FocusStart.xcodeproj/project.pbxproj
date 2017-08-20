@@ -58,6 +58,7 @@
 		FBBFD22B1F46EB3E00DDF7F0 /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
 		FBBFD22D1F46F21F00DDF7F0 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		FBBFD22E1F46F21F00DDF7F0 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		FBBFD2311F49494100DDF7F0 /* LibraryAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPIDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 			children = (
 				FBBFD2271F46E8CD00DDF7F0 /* LibraryAPI.h */,
 				FBBFD2281F46E8CD00DDF7F0 /* LibraryAPI.m */,
+				FBBFD2311F49494100DDF7F0 /* LibraryAPIDelegate.h */,
 				FBBFD22A1F46EB3E00DDF7F0 /* HttpClient.h */,
 				FBBFD22B1F46EB3E00DDF7F0 /* HttpClient.m */,
 				FBBFD22D1F46F21F00DDF7F0 /* Manager.h */,

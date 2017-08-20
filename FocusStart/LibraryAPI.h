@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LibraryAPIDelegate.h"
 
-@interface LibraryAPI : NSObject
+
+@interface LibraryAPI : NSObject 
+
+@property (weak) id<LibraryAPIDelegate> delegate;
 
 +(LibraryAPI *) sharedInstance;
 -(void) launch;
--(NSOrderedSet *) message;
+-(NSOrderedSet *) messages;
 
 @end
+
+
+

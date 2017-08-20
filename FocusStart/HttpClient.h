@@ -11,7 +11,8 @@
 
 @interface HttpClient : NSObject
 
--(id) getRequest;
--(UIImage *) downloandImage:(NSURL *) url;
+- (id)getRequest;
+- (UIImage*)downloadImage:(NSURL*)url;
+
 
 @end
